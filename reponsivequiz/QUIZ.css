@@ -1,0 +1,167 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: black;
+    background-image: url(https://th.bing.com/th/id/R.ff183881ff61921be4dbe78ef4a08b19?rik=VfOM9QEXmfgLBg&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: fill;
+    
+}
+
+header{
+    background: black;
+    color: aqua;
+    padding: 10px;
+    padding-bottom: 24px;
+}
+
+
+.headmaingrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* body */
+
+.bodymaingrid{
+    display: grid;
+    grid-template-columns: 0.07fr 1fr 0.0fr;
+
+    
+    
+}
+
+
+.bodyleftgrid{
+    background: black;
+    height:auto;
+}
+.sidebar{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    height: auto;
+
+    
+}
+.pbtn{
+    padding: 15px;
+    background: black;
+    color: greenyellow;
+   
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
+}.pbtn:focus{
+    border: none;
+    border-left: 4px solid aqua;
+}
+
+.qbtn{
+    padding: 15px;
+    background: black;
+    color: aqua;
+    
+    border-radius: 10px;
+    margin-left: 25px;
+}.qbtn:focus{
+    border: none;
+    border-left: 4px solid aqua;
+}
+
+.tbtn{
+    padding: 15px;
+    background: black;
+    color: yellow;
+    
+    border-radius: 10px;
+    margin-left: 25px;
+}.tbtn:focus{
+    border: none;
+    border-left: 4px solid aqua;
+}
+
+.sbtn{
+    padding: 15px;
+    background: black;
+    color: aqua;
+    
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 50px;
+}.sbtn:focus{
+    border: none;
+    border-left: 4px solid aqua;
+}
+
+/* body center grid */
+.bodycentergrid{
+   height: 50px;
+}
+
+.quizbody{
+    
+    
+}
+
+.quizintro{
+    background: rgb(0, 217, 255);
+    color: white;
+    
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}.questionsno{
+    width: auto;
+    height: auto;
+    background: black;
+    color: gold;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    
+}.quesscore{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.question1{
+    background: white;
+    
+    padding: 20px;
+}
+
+
+.QUIZ{
+    position: sticky;
+    top: 0px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 620px) {
+    .question1 {
+        
+        font-size: 10px;
+        padding-bottom: auto;
+
+        
+    }
+    .quizbody{
+        
+    }
+
+    .sidebar {
+        grid-template-rows: auto; /* Adjust the layout for smaller screens */
+        height: auto; /* Allow the height to adjust based on content */
+        /* Add any other necessary adjustments for smaller screens */
+    }
+
+    .quizintro {
+        font-size: 14px; /* Adjust the font size for smaller screens */
+    }
+}
+
